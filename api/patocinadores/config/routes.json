@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/patocinadores",
+      "handler": "patocinadores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patocinadores/count",
+      "handler": "patocinadores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/patocinadores/:id",
+      "handler": "patocinadores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/patocinadores",
+      "handler": "patocinadores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/patocinadores/:id",
+      "handler": "patocinadores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/patocinadores/:id",
+      "handler": "patocinadores.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

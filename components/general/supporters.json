@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_general_supporters",
+  "info": {
+    "name": "supporters",
+    "icon": "briefcase-medical"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

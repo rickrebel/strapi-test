@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_footer_cat_footers",
+  "info": {
+    "name": "footer",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "tilulo_footer": {
+      "type": "string"
+    }
+  }
+}

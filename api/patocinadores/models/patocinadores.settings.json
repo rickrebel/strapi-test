@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patocinadores",
+  "info": {
+    "name": "patocinadores"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "url": {
+      "type": "string",
+      "private": false,
+      "required": false,
+      "unique": false
+    }
+  }
+}

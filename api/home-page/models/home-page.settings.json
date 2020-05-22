@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title_tab": {
+      "type": "string",
+      "default": "Rodando Ayuda"
+    },
+    "header_color": {
+      "type": "string"
+    },
+    "dynamic_block": {
+      "type": "dynamiczone",
+      "components": [
+        "title-cat.title",
+        "footer-cat.footer"
+      ]
+    }
+  }
+}

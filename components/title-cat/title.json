@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_title_cat_titles",
+  "info": {
+    "name": "Títle",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "integer"
+    }
+  }
+}
